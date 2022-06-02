@@ -1,0 +1,64 @@
+body {
+    background-color: #ddd;
+}
+
+#map {
+    width: 100vw;
+    height: 100vh;
+    background-color: #cfc;
+}
+
+.error {
+    background-color: crimson;
+    color: #fff;
+}
+
+.hide-error {
+    display: none;
+}
+
+.marker {
+    display: block;
+    border: none;
+    cursor: pointer;
+    padding: 0;
+    width: 20px;
+    height: 20px;
+    background-repeat: no-repeat;
+    background-image: url(../assets/bike.svg);
+    background-size: 100%;
+}
+
+.pop-up {
+    position: absolute;
+    z-index: 300;
+    width: 90%;
+    height: 100px;
+    margin: 10px 5%;
+    bottom: 0;
+    background-color: rgb(198, 153, 199);
+    color: #000;
+    border-radius: 12px;
+}
+
+.hidden {
+    display: none;
+}
+
+.pop-up h2 {
+    margin: 5px 0;
+    text-align: center;
+}
+.pop-up p {
+    margin: 5px 0;
+    font-size: 20px;
+    text-align: center;
+}
+
+.close-pop {
+    margin: 0 auto 0 0;
+}
+
+.offline {
+    color: red;
+}
